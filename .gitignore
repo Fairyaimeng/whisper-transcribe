@@ -1,0 +1,27 @@
+# ===== 大模型文件（本地保留，不入库）=====
+models/
+*.bin
+
+# ===== whisper.cpp 编译产物与运行时库 =====
+bin/
+
+# ===== 运行产出与日志 =====
+out/
+logs/
+tmp/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+
+# ===== 备份与临时副本 =====
+*.bak
+*.bak.*
+quick/backup/
+
+# ===== macOS 系统文件 =====
+.DS_Store
+
+# ===== 编辑器 =====
+.vscode/
+.idea/
